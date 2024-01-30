@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #121212;
+	color: #DDD3CD;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+.logo, .menu{
+	display: inline-block;
+	color: #DDD3CD;
+}
+
+.menu li{
+	display: inline-block;
+	color: #DDD3CD;
+	text-decoration: none;
+}
+.menu a{
+	color: #DDD3CD;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.logo{
+	margin-top: 12px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.uslugi{
+	margin-top: 10px;
+	margin-left: 44px;
+	display: inline-block;
+}
+.feedback{
+	margin-top: 10px;
+	margin-left: 38px;
+	display: inline-block;
+	color: #DDD3CD;
+}
+
+.contacts{
+	margin-top: 10px;
+	margin-left: 36px;
+	display: inline-block;
+	color: #DDD3CD;
+}
+
+.menu a:hover{
+color: #FFFFFF;
+}
+
+.phone{
+	margin-top: 5px;
+	margin-left: 600px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.adress {
+display: inline-block;
+}
+
+
+hr{
+	width: 100%;
+	color: #121212;
+	margin-top: 20px;
+}
+
+.all_dop li{
+	
+	font-size: 16px;
+	color: #DDD3CD;
+}
+
+#diag{
+margin-top: 15px;
+margin-left: 20px;
+display: inline-block;
+vertical-align: middle;
+}
+
+#zamena{
+	margin-top: 15px;
+	margin-left: 60px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+#montaz{
+	margin-top: 15px;
+	margin-left: 60px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+#remont{
+	margin-top: 15px;
+	margin-left: 60px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#line1{
+	margin-top: 15px;
+	margin-left: 60px;
+	vertical-align: middle;
+}
+
+#line2{
+	margin-top: 15px;
+	margin-left: 30px;
+	vertical-align: middle;
+}
+
+#line3{
+	margin-top: 15px;
+	margin-left: 30px;
+	vertical-align: middle;
+}
+
+h1{
+	color: #DDD3CD; 
+	font-size: 161px;
+	margin-left: 20px;
+	margin-top: ;
+	font-weight: lighter;
+}
+
+#under_text{
+	color: #DDD3CD; 
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 40px;
+	vertical-align: middle;
+}
+
+button{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 65px;
+	padding-right: 65px;
+margin-left: 1225px;
+margin-top: -70px;
+vertical-align: middle;
+background-color: #121212;
+border: 1px solid #DDD3CD;
+color: #DDD3CD;
+}
+
+#img_glavnaya{
+	margin-left: 20px;
+	margin-top: 45px;
+}
+
+button:hover{
+	color: #FFFFFF;
+}
+
+h2{
+	font-size: 64px;
+	margin-left: 420px;
+	margin-top: 148px;
+	font-weight: lighter;
+	margin-bottom: 15px;
+}
+
+h5{
+font-size: 16px;
+margin-left: 1300px;
+font-weight: lighter
+
+}
+
+.h3{
+	font-size: 24px;
+	margin-left: 20px;
+	margin-top: 75px;
+	vertical-align: middle;
+}
+
+.h4{
+	margin-left: 420px;
+	vertical-align: middle;
+	margin-top: -40px;
+}
+
+.img_work{
+
+	margin-top: 75px;
+	margin-left: 20px;
+
+}
+
+.img_work2{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.PolzaTO{
+	margin-left: 1360px;
+}
+
+.card1{
+	background-color: #1D1D1C;
+	border: 1px #1D1D1C ;
+	margin-left: 20px;
+	padding: 75px 73px 58px 20px ;
+	width: 360px;
+	vertical-align: middle;
+	height: 250px;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.name_card1{
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.text_card1{
+	margin-left: 30px;
+	color: #6F6F6F;
+}
+.card{
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.card2{
+	background-color: #1D1D1C;
+	border: 1px #1D1D1C ;
+	padding: 75px 73px 58px 20px ;
+	width: 360px;
+	vertical-align: middle;
+	height: 250px;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.name_card2{
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+.text_card2{
+	margin-left: 30px;
+	color: #6F6F6F;
+}
+
+.card3{
+background-color: #1D1D1C;
+	border: 1px #1D1D1C ;
+	padding: 75px 73px 58px 20px ;
+	width: 360px;
+	vertical-align: middle;
+	height: 250px;
+	display: inline-block;
+	margin-right: 25px;
+
+}
+
+.name_card3{
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+.text_card3{
+	margin-left: 30px;
+	color: #6F6F6F;
+}
+
+.namber{
+margin-top: 10px;
+margin-left: 30px;
+border: 1px #181717;
+background-color: #181717;
+margin-bottom: 20px;
+padding: 15px;
+width: 25px;
+}
+
+.name_card4{
+	font-size: 24px;
+}
+
+.name_card5{
+	font-size: 24px;
+}
+
+.name_card6{
+	font-size: 24px;
+}
+
+.data{
+	font-size: 14px;
+	color: #707070;
+	margin-top: 5px;
+}
+
+
+
+.end{
+	margin-top: 120px;
+	color: #DDD3CD;
+	font-size: 80px;
+	margin-left: 200px;
+	vertical-align: middle;
+	display: inline-block;
+	
+	text-decoration: none;
+	margin-bottom: 60px;
+}
+
+.end:hover{
+	color: #FFFFFF;
+	text-decoration: ;
+}
+
+.text_footer{
+	width: 360px;
+	margin-left: 20px;
+	margin-top: 30px ;
+	margin-bottom: 40px;
+}
+
+.footer{
+	vertical-align: top;
+	color: #6E6E6E;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.footer1{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 163px;
+}
+
+.footer2{
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 147px;
+}
+
+.footer3{
+vertical-align: top;
+display: inline-block;
+margin-right: 63px;
+}
+
+.footer4{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.footer_text{
+	color: #DDD3CD;
+}
+
+.mess{
+	color:#DDD3CD;
+	text-decoration: none;
+}
+
+.mess:hover{
+	color: #FFFFFF;
+}
